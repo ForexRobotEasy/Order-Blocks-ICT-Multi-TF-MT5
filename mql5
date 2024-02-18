@@ -1,0 +1,68 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                   Order Blocks ICT Multi TF MT5 |
+//|                                      Copyright © 2022, Forex Robot Easy Team |
+//|                                           Website: forexroboteasy.com |
+//+------------------------------------------------------------------+
+#property strict
+
+// Global variables
+int g_Periods[] = {PERIOD_H1, PERIOD_H4, PERIOD_D1};  // List of timeframes for multi-timeframe analysis
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Add necessary initialization code here
+    
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Add necessary deinitialization code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Add necessary order block analysis code here
+    
+    // Check for order block identification on each timeframe
+    for (int i = 0; i < ArraySize(g_Periods); i++)
+    {
+        int timeframe = g_Periods[i];
+        
+        // Perform order block analysis on the current timeframe
+        
+        // Identify significant levels where institutional traders have placed their orders
+        
+        // Determine if the order block is a robust support or resistance zone
+        
+        // Output potential reversals or continuations of trends
+        
+        // Provide valuable insight into market trends and enhance trading decisions
+    }
+    
+    // Add necessary trading functions to identify and analyze order blocks
+    
+    // Output accurate and reliable information on order blocks
+    
+    // Optimize the code for efficient and effective performance
+    
+    // Collaborate with the product team for updates or modifications based on feedback or changing market conditions
+    
+    // Add necessary code for logical conclusion
+}
+
+//+------------------------------------------------------------------+
+//| Custom functions                                                 |
+//+------------------------------------------------------------------+
+// Add necessary custom functions here
+
